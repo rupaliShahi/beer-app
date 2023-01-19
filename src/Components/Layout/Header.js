@@ -12,7 +12,7 @@ const Header = (props) => {
 
   return (
     <header className={classes.header}>
-      <Link to="/">
+      <Link to="/beer-app">
         <h1>Beer App</h1>
       </Link>
       <button className={classes.button} onClick={props.onShowFav}>

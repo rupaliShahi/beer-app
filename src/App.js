@@ -25,7 +25,7 @@ const App = () => {
         <Header onShowFav={showFavHandler} />
         <main>
           <Routes>
-            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/beer-app" element={<Home />}></Route>
             <Route exact path="/beers/:id" element={<Beer />}></Route>
           </Routes>
         </main>
